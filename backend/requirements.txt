@@ -10,5 +10,5 @@ librosa==0.10.1
 requests==2.31.0
 yt-dlp==2023.12.30
 google-search-results
-pillow
+Pillow==10.0.1 --only-binary=:all:
 setuptools<70
