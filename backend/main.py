@@ -22,6 +22,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
+os.makedirs("uploads", exist_ok=True)
 app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
 app.add_middleware(
