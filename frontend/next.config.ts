@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Produces a self-contained build under .next/standalone – required for
+  // the minimal Docker image used in Cloud Run.
+  output: "standalone",
 };
 
 export default nextConfig;
