@@ -3,7 +3,6 @@ uvicorn==0.24.0
 sqlalchemy==2.0.23
 python-dotenv==1.0.0
 psycopg2-binary==2.9.9
-pillow==10.1.0
 numpy==1.26.2
 scikit-image==0.22.0
 moviepy==1.0.3
@@ -11,3 +10,5 @@ librosa==0.10.1
 requests==2.31.0
 yt-dlp==2023.12.30
 google-search-results
+pillow==10.0.1
+setuptools<70
